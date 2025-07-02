@@ -23,9 +23,12 @@ This setup demonstrates how to:
 
 - **Next.js** (App Router)
 - **NextAuth.js** (Custom Provider)
-- **Bun** runtime (alternative to Node.js)
-- Secure HTTPS communication (locally with self-signed cert)
+NEXTAUTH_URL=https://localhost:3000
+NEXTAUTH_SECRET=some-random-secret
 
+OIDC_ISSUER=https://localhost:5005
+OIDC_CLIENT_ID=nextjs-client
+OIDC_CLIENT_SECRET=not_used_with_pkce
 ---
 
 ## 🚀 Getting Started
